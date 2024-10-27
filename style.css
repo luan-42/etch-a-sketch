@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 16px;
+    box-sizing: border-box;
+    background-image: url("./images/Bob-Ross-Mountain-Summit.jpg");
+    Background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: "Cookie";
+    font-size: 56px;
+    color: rgb(214, 57, 18);
+}
+
+#app {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+#menu {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background-color: rgb(211, 223, 215);
+}
+
+.config {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+#grid {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+.line {
+    flex: 1;
+    display: flex;
+}
+
+.square {
+    border: 1px solid;
+    border-left: none;
+    border-top: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div id="app">
+        <div id="grid"></div>
+        <div id="menu">
+            <div class="config">
+                <input type="range" id="size" name ="size" min="1" max="100" value="32">
+                <label for="size"><b>Size: </b><span></span></label>
+            </div>
+            <div class="config">
+                <input type="range" id="opacity" name ="opacity" min="1" max="100" value="100">
+                <label for="opacity">Opacity</label>
+            </div>
+            <div class="config">
+                <input type="color" id="color" name ="color" value="#828282">
+                <label for="color">Color</label>
+            </div>
+            <div class="config">
+                <input type="checkbox" id="rainbow" name ="rainbow">
+                <label for="rainbow">Rainbow mode</label>
+            </div>
+            <div class="config">
+                <input type="button" id="clear" value="Clear">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
