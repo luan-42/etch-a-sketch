@@ -15,7 +15,7 @@ function changeSquareColor(e) {
     square.style.borderColor = color.value;
 
     square.style.opacity = square.style.opacity === "100%"
-    ? opacity.value / 10 
+    ? opacity.value / 100 
     : +square.style.opacity + opacity.value / 100;
 
     if (rainbow.checked) color.value = randomColor();
