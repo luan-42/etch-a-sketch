@@ -37,7 +37,7 @@ function createGrid(size) {
 }
 
 grid.addEventListener("mouseover", changeSquareColor);
-size.addEventListener("mouseup", () => {
+size.addEventListener("change", () => {
     createGrid(size.value)
 });
 clear.addEventListener("click", () => {createGrid(size.value)});
